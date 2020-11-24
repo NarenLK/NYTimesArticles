@@ -9,11 +9,19 @@ NYTimesArticles app is demo application for getting most viewed articles from NY
 4. Navigate between next and previous article in deltaled article page
 5. Command line script for building the project. (Executable file)
 
+## To run the project:
+1. Open terminal and navigate to project folder
+2. Run the command 
+
+       pod install
+3. Open NyTimes.xcworkspace to open the project in Xcode.
+ 
+
 ## Screenshots:
 ### iPad
 ![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/one.png)
-
-# iPhone
+             
+### iPhone
 ![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/two.png).   ![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/three.png)
 
 
@@ -41,7 +49,7 @@ To build the project with command line script
         /. build.sh "release" "0.1" "1" "YourTeamId"
           
 3.   *This would build and archive the project. Logs would be captured and stored in the build directory at the PWD(same path of project).*
-4.   *The archived file would be exported and stired at the PWD path level.* 
+4.   *The archived file would be exported and stored at the PWD path level.* 
   
   
   #### This build.sh(Configuration) can be used with fastlane, Jenkins, or with any CI/CD agents like Bamboo.
