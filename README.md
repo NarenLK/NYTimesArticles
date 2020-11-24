@@ -11,9 +11,7 @@ NYTimesArticles app is demo application for getting most viewed articles from NY
 
 ## Screenshots:
 
-![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/one.png)
-![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/two.png)
-![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/three.png)
+![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/one.png) ![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/two.png) ![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/three.png)
 
 
 ## Built With 🛠
