@@ -39,14 +39,10 @@ class NyTimesUITests: XCTestCase {
         let textView = testApp.textViews.element(boundBy: 0)
         XCTAssertTrue(textView.exists)
         
-        //Check if "NEXT ARTCLE" (Right Arrow) button extsts on navigation bar and Clcik it
+        //Check if "NEXT ARTCLE" (Right Arrow) button extsts on navigation bar and Click it
         let navigationbarButtons = testApp.navigationBars.element(boundBy: 0).children(matching: .button)
-        XCTAssert(navigationbarButtons.element(boundBy: 2).exists)
-        navigationbarButtons.element(boundBy: 2).tap()
-
-        
-        XCTAssert(navigationbarButtons.element(boundBy: 0).exists)
-        navigationbarButtons.element(boundBy: 0).tap()
+        XCTAssert(navigationbarButtons.element(boundBy: 1).exists)
+        navigationbarButtons.element(boundBy: 1).tap()
         
     }
     
