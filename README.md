@@ -37,7 +37,7 @@ NYTimesArticles app is demo application for getting most viewed articles from NY
 ## Architecture:
 This project uses MVVM architecture.
   
-## Command line build:
+## Command line build/test cases:
 To build the project with command line script
 1.  *Open terminal and navigate to NyTimes project folder.*
 2.  *Run the build.sh script file. -> /. build.sh "release" "0.1" "1" "YourTeamId"*
@@ -55,9 +55,12 @@ To build the project with command line script
 3.   *This would build and archive the project. Logs would be captured and stored in the build directory at the PWD(same path of project).*
 4.   *The archived file would be exported and stored at the PWD path level.* 
   
-  
-  #### This build.sh(Configuration) can be used with fastlane, Jenkins, or with any CI/CD agents like Bamboo.
+  #### The build.sh(Configuration) file can be used with fastlane, Jenkins, or with any CI/CD agents like Bamboo.
   If any of the above parameters are missed, script would throw an error for specific case.
   
   #### ![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/BuildError.png)
+  
+  #### To run the test cases, run following command from terminal
+
+       xcodebuild test -workspace "NyTimes.xcworkspace" -scheme "NyTimes" -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.0' -enableCodeCoverage YES > "${LOG_FILE}"
 
