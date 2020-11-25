@@ -3,7 +3,8 @@
 NYTimesArticles app is demo application for getting most viewed articles from NYTimes api. The feed is available for a day/week/month.
 
 ## Notable features:
-1. Dark mode support
+1. Dark and light mode support
+2. Landscape and Portrait orientation support
 2. Universal app, compatible with iPhone, iPad, iPod
 3. Period change option (represents how far back, in days, the API returns results for)
 4. Navigate between next and previous article in deltaled article page
@@ -20,6 +21,8 @@ NYTimesArticles app is demo application for getting most viewed articles from NY
 ## Screenshots:
 ### iPad
 ![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/one.png)
+![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/four.png)
+
              
 ### iPhone
 ![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/two.png).   ![ScreenShot](https://github.com/NarenLK/NYTimesArticles/blob/main/NyTimes/Screens/three.png)
