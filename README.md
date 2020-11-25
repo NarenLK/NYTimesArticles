@@ -50,7 +50,7 @@ To build the project with command line script
         4. TEAM ID from which builds are signed.
         
         Example :
-        /. build.sh "release" "0.1" "1" "YourTeamId"
+        ./build.sh "release" "0.1" "1" "YourTeamId"
           
 3.   *This would build and archive the project. Logs would be captured and stored in the build directory at the PWD(same path of project).*
 4.   *The archived file would be exported and stored at the PWD path level.* 
