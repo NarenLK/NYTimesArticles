@@ -27,7 +27,31 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F73E685C256A71C9004E5DB9"
+            BuildableName = "NyTimes.app"
+            BlueprintName = "NyTimes"
+            ReferencedContainer = "container:NyTimes.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F73E6872256A71CC004E5DB9"
+            BuildableName = "NyTimesTests.xctest"
+            BlueprintName = "NyTimesTests"
+            ReferencedContainer = "container:NyTimes.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F73E687D256A71CC004E5DB9"
+            BuildableName = "NyTimesUITests.xctest"
+            BlueprintName = "NyTimesUITests"
+            ReferencedContainer = "container:NyTimes.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">

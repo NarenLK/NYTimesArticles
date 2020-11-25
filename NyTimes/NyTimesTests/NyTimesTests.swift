@@ -44,14 +44,13 @@ class NyTimesTests: XCTestCase {
                     XCTFail(error.localizedDescription)
                     return
                 }
+                testExpectation.fulfill()
                 XCTAssert(articleModel.status == "OK")
                 
             case .failure(let error):
                 XCTFail(error.localizedDescription)
                 return
             }
-            
-            testExpectation.fulfill()
         }
         
         waitForExpectations(timeout: 30) { error in
@@ -67,8 +66,8 @@ class NyTimesTests: XCTestCase {
         NetworkLayer.shared.getImage(url: serverUrl) { responseData in
 
             guard responseData == nil else {
-                XCTAssert(true)
                 testExpectation.fulfill()
+                XCTAssert(true)
                 return
             }
             XCTFail("Image download error")
@@ -77,7 +76,6 @@ class NyTimesTests: XCTestCase {
         waitForExpectations(timeout: 30) { error in
             XCTAssert( error == nil)
         }
-        
     }
 
 }
