@@ -5,6 +5,7 @@
 //  Created by Kivanda, Narendra on 22/11/20.
 //
 
+import MBProgressHUD
 import UIKit
 
 /// View controller Class for diaplying the detailed article.
@@ -76,7 +77,10 @@ class ArticleViewController: UIViewController {
             guard media[0].media_metadata!.isEmpty else {
                 let metadata = media[0].media_metadata!
                 
+                MBProgressHUD.showAdded(to: view, animated: true)
                 ArticleViewModel.shared.fetchPhoto(url: metadata[2].url!) { [self] responseData in
+                    
+                    MBProgressHUD.hide(for: view, animated: true)
                     if responseData == nil {
                         return
                     }
