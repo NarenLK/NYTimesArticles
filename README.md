@@ -9,6 +9,7 @@ NYTimesArticles app is demo application for getting most viewed articles from NY
 3. Period change option (represents how far back, in days, the API returns results for)
 4. Navigate between next and previous article in deltaled article page
 5. Command line script for building the project. (Executable file)
+6. Code Coverage report enabled and can be analysed from Xcode
 
 ## To run the project:
 1. Open terminal and navigate to project folder
